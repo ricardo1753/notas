@@ -1,0 +1,38 @@
+.nota {
+  padding: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+.nota__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.nota__title {
+ margin: 0;
+ font-size: 1.5rem; 
+}
+
+.nota__row {
+  margin-top: 10px;
+}
+
+.nota__label {
+  margin-right: 5px;
+}
+
+.nota__value {
+  font-weight: 300;
+}
+
+.nota__value--indented {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nota__instructions {
+  white-space: pre-wrap;  /* preserva todos white spaces: \n, tab, etc*/
+}

@@ -1,0 +1,23 @@
+@import-normalize;
+@import 'buttons.css';
+@import 'nota-list.css';
+@import 'nota.css';
+@import 'nota-edit.css';
+
+*, *::before, *::after {
+  font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
